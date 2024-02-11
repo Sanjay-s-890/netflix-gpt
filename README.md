@@ -14,6 +14,11 @@
 - created redux store with userSlice
 - Implemented sign out
 - update profile
+- Bugfix: sign up user displayName & profile pic update
+- Bugfix: if the user is not logged in Redirect /browse to login page and vice-versa
+- unsubscribed to the onAuthStateChanged callback
+- add hardcoded values to the constants file
+- 
 
 
 # Features
@@ -31,3 +36,16 @@
   - search bar
   - movie suggestions
   
+
+   - if user is logged in, redirect him to browse page
+
+  # challenges:
+  - redux bug- photoURL & displayName appear after refresh
+    - dispatch addUser() & removeUser() added in Login.js also.
+    - initially only body.js had dispatch.
+    - so the photoURL & displayName is received late to the browser. By the time the dispatch is done and the both the feilds are null.
+  - access browse page from sign in page itself by changing directory
+    - if user is present, navigate to browse page automatically and to sign in page is not logged in.
+    - we cannot navigate out of RouterProvider so move the useEffect to header section to make it global
+
+ 
