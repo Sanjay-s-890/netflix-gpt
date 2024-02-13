@@ -1,4 +1,5 @@
 # Netflix GPT
+
 - Create React App
 - Configured tailwindcss
 - Header
@@ -28,9 +29,15 @@
 - update store with trailer video data
 - embedded the youtube video & make it autoplay & mute
 - tailwind classes to make MainContainer look good
-
+- Build Secondary Component
+- Build movie List
+- build movie card
+- TMDB image CDN URL
+- made the browse page good using tailwind css
+- usePopularMovies && useTopRatedMovies Custom hook
 
 # Features
+
 - Login/Signup page
   - sign in/ sign up Form
   - redirect to browse page
@@ -40,15 +47,16 @@
     - trailer in background
     - title and discription
     - movie suggestion
-      - movieList * n
+      - movieList \* n
 - Netflix GPT
+
   - search bar
   - movie suggestions
-  
 
-   - if user is logged in, redirect him to browse page
+  - if user is logged in, redirect him to browse page
 
 # challenges:
+
 - redux bug- photoURL & displayName appear after refresh
   - dispatch addUser() & removeUser() added in Login.js also.
   - initially only body.js had dispatch.
