@@ -35,6 +35,7 @@
 - TMDB image CDN URL
 - made the browse page good using tailwind css
 - usePopularMovies && useTopRatedMovies Custom hook
+- GPT search feature
 
 # Features
 
@@ -47,13 +48,13 @@
     - trailer in background
     - title and discription
     - movie suggestion
-      - movieList \* n
+      - movieList * n
 - Netflix GPT
-
   - search bar
   - movie suggestions
+- Different languages page for GPT search page
 
-  - if user is logged in, redirect him to browse page
+- if user is logged in, redirect him to browse page
 
 # challenges:
 
