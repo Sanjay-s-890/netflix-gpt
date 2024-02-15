@@ -35,7 +35,10 @@
 - TMDB image CDN URL
 - made the browse page good using tailwind css
 - usePopularMovies && useTopRatedMovies Custom hook
-- GPT search feature
+- GPT search Page
+- GPT search bar
+- Multi-Language feature in our app(feature)
+- 
 
 # Features
 
@@ -52,7 +55,7 @@
 - Netflix GPT
   - search bar
   - movie suggestions
-- Different languages page for GPT search page
+- Different languages page for GPT search page using redux
 
 - if user is logged in, redirect him to browse page
 
